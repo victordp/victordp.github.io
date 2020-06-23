@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-22T19:29:02-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Awesome title</title><subtitle>Engenheiro químico, com experiência em modelagem e simulação, cujos interesses incluem Ciência de Dados, Indústria 4.0, Programação e Estatística.</subtitle><author><name>Victor Ferreira de Paula</name></author><entry><title type="html">Meu Primeiro Projeto de Data Science</title><link href="http://localhost:4000/update/2020/06/19/fraud-clicks.html" rel="alternate" type="text/html" title="Meu Primeiro Projeto de Data Science" /><published>2020-06-19T00:00:00-03:00</published><updated>2020-06-19T00:00:00-03:00</updated><id>http://localhost:4000/update/2020/06/19/fraud-clicks</id><content type="html" xml:base="http://localhost:4000/update/2020/06/19/fraud-clicks.html">&lt;p&gt;Meu primeiro “projetinho” de Data Science foi a &lt;em&gt;Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile&lt;/em&gt;, que faz parte do curso &lt;em&gt;Big Data Analytics com R e Microsoft Azure Machine Learning&lt;/em&gt; da &lt;a href=&quot;https://www.datascienceacademy.com.br/&quot;&gt;Data Science Academy (DSA)&lt;/a&gt;, uma plataforma de cursos online de tecnologia, com uma didática muito voltada para a prática. O &lt;em&gt;Big Data Analytics com R e Microsoft Azure Machine Learning&lt;/em&gt; é o primeiro curso da &lt;em&gt;Formação Cientista de Dados (FCD)&lt;/em&gt; da DSA e engloba os conceitos básicos de Data Science, além de programação em R e criação de modelos de Machine Learning com o &lt;a href=&quot;https://azure.microsoft.com/pt-br/services/machine-learning/&quot;&gt;Microsoft Azure Machine Learning&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;contextualização-os-cliques-fraudulentos-em-anúncios-online&quot;&gt;Contextualização: os cliques fraudulentos em anúncios online&lt;/h1&gt;
+
+&lt;p&gt;Empresas que anunciam online estão muito suscetíveis a cliques fraudulentos (também chamadas de &lt;em&gt;click frauds&lt;/em&gt;), isto é, quando um indivíduo ou algum programa de computador explora anunciantes online, clicando repetidamente em um anúncio PPC (&lt;em&gt;pay-per-click&lt;/em&gt;) para gerar cobranças fraudulentas. A fraude aumenta os custos de publicidade, reduz as taxas de conversão de download e distorce os dados de usuário para negócios online. Só para se ter uma ideia, em uma previsão feita pela &lt;a href=&quot;https://www.juniperresearch.com/home&quot;&gt;Juniper Research&lt;/a&gt;, os cliques fraudulentos em publicidade digital em 2019 estima um prejuízo de US$ 42bi aos anunciantes, 21% a mais do que em 2018, quando o prejuízo foi de US$ 35bi. Anualmente, até 2023, o prejuízo causado por cliques fraudulentos deve alcançar a marca dos US$ 100bi.&lt;/p&gt;
+
+&lt;p&gt;Devido à falta de adoção de soluções antifraude para anunciantes menores e às táticas cada vez mais complexas dos fraudadores, a &lt;a href=&quot;https://www.juniperresearch.com/home&quot;&gt;Juniper&lt;/a&gt; prevê que os anunciantes economizarão apenas US$ 16bi em possíveis gastos com anúncios perdidos em fraudes. Além disso, a pesquisa aponta que o crescimento do inventário de anúncios dos editores crescerá mais rápido do que a demanda dos anunciantes nos próximos quatro anos. Como resultado, fraudadores procurarão preencher essa lacuna crescente entre oferta e demanda preenchendo o inventário não utilizado com anúncios fraudulentos.&lt;/p&gt;
+
+&lt;p&gt;Segundo Michel Primo, executivo da &lt;a href=&quot;https://clickcease.com.br/?tap_a=54098-332c74&amp;amp;tap_s=573603-0d13ff&quot;&gt;ClickCease&lt;/a&gt;, uma Martech israelense especializada na defesa contra ações desse tipo, os cliques fraudulentos envolvem ações que forçam o anunciante a gastar com cliques que não foram feitos por consumidores reais. Nesse caso, robôs clicam de maneira consecutiva e fazem o responsável pelo anúncio pagar por visualizações que não atingiram potenciais clientes verdadeiros, ou seja, não há ganho direto para o responsável pelo golpe, apenas prejuízo para o anunciante. Michel Primo também afirma que “o Brasil é um dos principais mercados mundiais na publicidade digital, então é natural que seja um alvo valioso para esse tipo de golpe”.&lt;/p&gt;
+
+&lt;p&gt;Ainda segundo a &lt;a href=&quot;https://clickcease.com.br/?tap_a=54098-332c74&amp;amp;tap_s=573603-0d13ff&quot;&gt;ClickCease&lt;/a&gt;, entre as melhores estratégias para evitar golpes na publicidade digital, estão softwares que monitoram o tráfego e identificam comportamentos anormais, assim como a escolha adequada dos parceiros que fazem parte do ecossistema de marketing da empresa.&lt;/p&gt;
+
+&lt;h1 id=&quot;meu-projeto&quot;&gt;Meu projeto&lt;/h1&gt;
+
+&lt;p&gt;O algoritmo foi desenvolvido em linguagem R e utiliza um dataset do &lt;a href=&quot;https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data&quot;&gt;kaggle&lt;/a&gt;, com as seguintes características dos cliques:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ip: endereço IP do clique;&lt;/li&gt;
+  &lt;li&gt;app: ID do aplicativo para marketing;&lt;/li&gt;
+  &lt;li&gt;device: ID do tipo de dispositivo do celular do usuário (por exemplo, iphone 6 plus, iphone 7, huawei
+mate 7 etc);&lt;/li&gt;
+  &lt;li&gt;os: ID da versão do telefone móvel do usuário;&lt;/li&gt;
+  &lt;li&gt;channel: ID do canal do editor de anúncios para celular&lt;/li&gt;
+  &lt;li&gt;click_time: registro de data e hora do clique (UTC);&lt;/li&gt;
+  &lt;li&gt;attributed_time: se o usuário baixar o aplicativo para depois de clicar em um anúncio, este é o horário
+do download do aplicativo;&lt;/li&gt;
+  &lt;li&gt;is_attributed: a variável a ser prevista, indicando que o aplicativo foi baixado;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A análise exploratória dos dados permitiu os seguintes insights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dados altamente desbalancedos, podendo acarretar em overfitting;&lt;/li&gt;
+  &lt;li&gt;Cada endereço de IP gera entre 2 e 3 cliques;&lt;/li&gt;
+  &lt;li&gt;80% dos endereços de IP geram 3 cliques;&lt;/li&gt;
+  &lt;li&gt;0,2% dos cliques são efetivamente convertidos em download;&lt;/li&gt;
+  &lt;li&gt;Cerca de 12% dos endereços de IP dão mais de 27 cliques, sendo suspeitos de fraude;&lt;/li&gt;
+  &lt;li&gt;Dos IPs com mais de 27 cliques, 2% realizam o download;&lt;/li&gt;
+  &lt;li&gt;Dos IPs com mais de 27 cliques, 25% dão mais que 200 cliques de um total de 100,000 cliques;&lt;/li&gt;
+  &lt;li&gt;Os IPs com mais que 200 cliques representam 3% dos total de cliques;&lt;/li&gt;
+  &lt;li&gt;Cerca de 10% dos cliques é realizado no período da madrugada;&lt;/li&gt;
+  &lt;li&gt;Dos cliques convertidos em download, 40% no período da manhã;&lt;/li&gt;
+  &lt;li&gt;A média entre clique e download do app é de 75 minutos, aproximadamente;&lt;/li&gt;
+  &lt;li&gt;A conversão de download está ligada ao enderço de IP, mais do que as outras características;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Utilizando o &lt;em&gt;K-Nearest Neighbor Classification&lt;/em&gt; como modelo preditivo, o algoritmo foi capaz de conseguir &lt;strong&gt;acurácia maior que 90% para previsão dos dados apresentados&lt;/strong&gt;. Todavia, para buscar uma performance melhor, um estudo mais detalhado sobre o dataset precisa ser feito, como subdividir ainda mais os as horas do dia nas quais um clique é realizado (ao invés de madrugada, manhã, tarde e noite). Uma outra sugestão de melhoria para generalização do modelo é realizar uma &lt;em&gt;feature selection&lt;/em&gt; visando escolher as características mais representativas da conversão de cliques.&lt;/p&gt;
+
+&lt;p&gt;Para download dos arquivos, acesse minha página do &lt;a href=&quot;https://github.com/victordp/projeto-dsa-01&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;fontes&quot;&gt;Fontes&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bigcommerce.com/ecommerce-answers/what-is-click-fraud-identify-and-prevent-fraudulent-clicks/&quot;&gt;What is click fraud? How to Identify and Prevent Fraudulent Clicks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.brasil61.com/noticias/industria-de-cliques-fraudulentos-em-publicidade-digital-deve-causar-um-prejuizo-de-us-42-bilhoes-em-2019-pran197702&quot;&gt;Indústria de cliques fraudulentos em publicidade digital deve causar um prejuízo de US$ 42 bilhões em 2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.juniperresearch.com/press/press-releases/advertising-fraud-losses-to-reach-42-bn-2019&quot;&gt;ADVERTISING FRAUD LOSSES TO REACH $42 BILLION IN 2019, DRIVEN BY EVOLVING TACTICS BY FRAUDSTERS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blogdochicopereira.com/web/fake-clique-fraudes-em-publicidade-digital-geram-prejuizos-de-us-42-bilhoes/&quot;&gt;FAKE CLIQUE: FRAUDES EM PUBLICIDADE DIGITAL GERAM PREJUÍZOS DE US$ 42 BILHÕES&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.datascienceacademy.com.br/&quot;&gt;Data Science Academy&lt;/a&gt;&lt;/p&gt;</content><author><name>Victor de Paula</name></author><summary type="html">Meu primeiro “projetinho” de Data Science foi a Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile, que faz parte do curso Big Data Analytics com R e Microsoft Azure Machine Learning da Data Science Academy (DSA), uma plataforma de cursos online de tecnologia, com uma didática muito voltada para a prática. O Big Data Analytics com R e Microsoft Azure Machine Learning é o primeiro curso da Formação Cientista de Dados (FCD) da DSA e engloba os conceitos básicos de Data Science, além de programação em R e criação de modelos de Machine Learning com o Microsoft Azure Machine Learning.</summary></entry></feed>
