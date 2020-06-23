@@ -20,11 +20,12 @@
 
 author: Victor Ferreira de Paula
 homepage: Página inicial
-title: Dados Químicos
+title: victordp
 email: fpaula.victor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Engenheiro químico, com experiência em modelagem e simulação, cujos interesses incluem
-  Ciência de Dados, Indústria 4.0, Programação e Estatística.
+  Blog criado para expor meus interesses profissionais e pessoais. Sou Engenheiro químico, com experiência
+  em modelagem e simulação e meus principais interesses incluem Ciência de Dados, Indústria 4.0, Programação 
+  e Estatística. Sempre em constante aprendizado!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
