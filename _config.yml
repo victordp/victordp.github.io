@@ -20,10 +20,10 @@
 
 author: Victor Ferreira de Paula
 homepage: Página inicial
-title: 
+title: Portfólio
 email: fpaula.victor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Página criada para expor meus interesses profissionais e pessoais. Sou Engenheiro químico, com experiência
+  Página criada para expor meus interesses profissionais e pessoais. Sou engenheiro químico, com experiência
   em modelagem e simulação, sendo meus principais interesses Ciência de Dados, Indústria 4.0, Programação 
   e Estatística. Sempre em constante aprendizado!
 baseurl: "" # the subpath of your site, e.g. /blog
