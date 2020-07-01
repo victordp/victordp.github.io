@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Meus Projetos
-permalink: /meus-projetos/
+title: Projetos
+permalink: /projetos/
 ---
 
 Aqui ficam armazenados meus projetos pessoais, em forma de posts, ilustrando o meu aprendizado e interesses.
