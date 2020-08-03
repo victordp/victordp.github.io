@@ -4,7 +4,7 @@ title: Sobre Mim
 permalink: /sobre/
 ---
 
-Olá, seja muito bem vindo! Eu me chamo Victor, tenho 26 anos e criei esta página para expor meus interesses pessoais e profissionais. Sou Engenheiro Químico, recém-formado e estou iniciando minha carreira. 
+Olá, seja muito bem vindo! Eu me chamo Victor, tenho 27 anos e criei esta página para expor meus interesses pessoais e profissionais. Sou Engenheiro Químico, recém-formado e estou iniciando minha carreira. 
 
 # Minha Formação
 

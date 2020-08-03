@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Certificações
-permalink: /certificações/
+permalink: /certificacoes/
 ---
 
 Em construção ...
