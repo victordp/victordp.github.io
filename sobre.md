@@ -16,8 +16,6 @@ Durante o vestibular, optei por realizar estudar no IME apenas como aluno. Nesta
 
 Como já gostava das áreas de matemática e química durante o Ensino Médio, a escolha do curso de engenharia química foi quase que natural. Além diss, durante a graduação, como sempre fui curioso e gostava de estudar, tive oportunidades de trabalhar com pesquisa já nos primeiros anos de graduação em projetos de Iniciação Científica. Foram dois anos estudando produção alternativa de biodiesel e um ano estudando propriedades de fluidos supercríticos. Este último projeto foi importante para mim, pois me evidenciou meu desejo por simulação, programação e modelagem. Em 2018, conquistei o diploma de Engenheiro Químico do IME. Seguem abaixo alguns registros pessoais dessa minha jornada.
 
-<img src="/assets/img/ic-2016.jpg" height="144px">
-
 # Experiência Profissional
 
 Parte em construção ...
