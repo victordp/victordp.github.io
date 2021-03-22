@@ -20,12 +20,11 @@
 
 author: Victor Ferreira de Paula
 homepage: Página inicial
-title: Portfólio
+title: Victor de Paula
 email: fpaula.victor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Página criada para expor meus interesses profissionais e pessoais. Sou engenheiro químico, com experiência
-  em modelagem e simulação, sendo meus principais interesses Ciência de Dados, Indústria 4.0, Programação 
-  e Estatística. Sempre em constante aprendizado!
+  Sou engenheiro químico, com experiência em modelagem e simulação, sendo meus principais interesses Ciência de Dados, Indústria 4.0, 
+  Programação e Estatística.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
